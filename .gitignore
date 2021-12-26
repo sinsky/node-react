@@ -1,3 +1,4 @@
+## Node.js ##
 # Dependency directories
 node_modules/
 # Optional npm cache directory
@@ -12,3 +13,14 @@ node_modules/
 .env.test.local
 .env.production.local
 .env.local
+
+## macOS ##
+.DS_Store
+
+## VSCode ##
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
