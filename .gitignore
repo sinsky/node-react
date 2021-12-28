@@ -24,3 +24,8 @@ node_modules/
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+
+
+## build file ""
+./src/output.css
+./src/client.min.js
