@@ -31,6 +31,7 @@ module.exports = {
       directory: path.join(__dirname, "src"),
     },
     port: 8080,
+    hot: true,
   },
   plugins: debug ? [] : [new webpack.optimize.OccurrenceOrderPlugin(), new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false })],
 };
