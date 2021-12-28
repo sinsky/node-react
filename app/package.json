@@ -12,8 +12,8 @@
     "build:pack": "webpack --mode development",
     "dev-server:pack": "webpack serve",
 
-    "build:tailwind": "npx tailwindcss -t ./src/input.css -o ./src/output.css",
-    "dev-server:tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "build:tailwind": "npx tailwindcss -t ./src/css/input.css -o ./src/output.css",
+    "dev-server:tailwind": "npx tailwindcss -i ./src/css/input.css -o ./src/output.css --watch"
   },
   "keywords": [],
   "author": "",
